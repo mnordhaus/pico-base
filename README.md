@@ -14,6 +14,10 @@ Modified css.html to transpile main.scss (within sass instead of css folder) and
 
 https://gohugo.io/functions/css/sass/#dart-sass
 
+To refer the right module directory:
+
+https://picocss.com/docs/sass#import
+
 ## Installation
 Reccomendation: Fork this repository, as this is meant to be a start.
 
