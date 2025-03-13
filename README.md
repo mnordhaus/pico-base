@@ -14,12 +14,26 @@ Modified css.html to transpile main.scss (within sass instead of css folder) and
 
 https://gohugo.io/functions/css/sass/#dart-sass
 
-To refer the right module directory:
+In order to refer the right module directory:
 
 https://picocss.com/docs/sass#import
+
+configured the proper includePaths within css.html:
+
+https://gohugo.io/functions/css/sass/#options
+
+'''go-html-template
+  {{ $opts := dict
+    "enableSourceMap" (not hugo.IsProduction)
+    "outputStyle" (cond hugo.IsProduction "compressed" "expanded")
+    "targetPath" "css/main.css"
+    "transpiler" "dartsass"
+    "includePaths" (slice "node_modules/@picocss/pico/scss")
+  }}
+'''
 
 ## Installation
 Reccomendation: Fork this repository, as this is meant to be a start.
 
 ## Configuration
-Modify main.scss and all the layout files as you need. Reffer PicoCSS and Hugo documentation.
+Modify main.scss and all the layout files as you need. See PicoCSS and Hugo documentation.
