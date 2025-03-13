@@ -1,25 +1,19 @@
-name: Theme name
+name: Pico Base
 license: MIT
 licenselink: https://github.com/owner/repo/LICENSE
-description: Theme description
-homepage: https://github.com/owner/repo
-demosite: https://owner.github.io/repo
+description: Foundation to create Thems based on the PicoCSS Framework: picocss.org
+homepage: https://github.com/mnordhaus/pico-base
+demosite: Use the sample content within the theme
 tags:
   - blog
-  - company
+  - PicoCSS
+  - Sass
+  - minimal
 features:
-  - some
-  - awesome
-  - features
-authors:
-  - name: Name of author
-    homepage: Website of author
-  - name: Name of author
-    homepage: Website of author
+  - PicoCSS
+  - Simple
+  - Dart
+  - Sass
 author:
-  name: Your name
-  homepage: Your website
-original:
-  author: Name of original author
-  homepage: Website of original author
-  repo: https://github.com/owner/repo
+  name: Markus Nordhaus
+  homepage: https://www.linkedin.com/in/markus-nordhaus/
