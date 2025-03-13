@@ -7,6 +7,9 @@ Based on:
 hugo new theme
 ```
 Then converted to YAML and added PicoCSS sass dependencies via npm.
+
+https://picocss.com/docs#install-with-npm
+
 Modified css.html to transpile main.scss (within sass instead of css folder) and link the compiled css. Following hugoes documentation:
 
 https://gohugo.io/functions/css/sass/#dart-sass
