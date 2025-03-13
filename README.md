@@ -22,7 +22,7 @@ configured the proper includePaths within css.html:
 
 https://gohugo.io/functions/css/sass/#options
 
-'''go-html-template
+´´´go-html-template
   {{ $opts := dict
     "enableSourceMap" (not hugo.IsProduction)
     "outputStyle" (cond hugo.IsProduction "compressed" "expanded")
@@ -30,7 +30,7 @@ https://gohugo.io/functions/css/sass/#options
     "transpiler" "dartsass"
     "includePaths" (slice "node_modules/@picocss/pico/scss")
   }}
-'''
+´´´
 
 ## Installation
 Reccomendation: Fork this repository, as this is meant to be a start.
