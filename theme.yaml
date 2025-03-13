@@ -9,11 +9,13 @@ tags:
   - PicoCSS
   - Sass
   - minimal
+  - yaml
 features:
   - PicoCSS
   - Simple
   - Dart
   - Sass
+  - yaml
 author:
   name: Markus Nordhaus
   homepage: https://www.linkedin.com/in/markus-nordhaus/
