@@ -33,7 +33,9 @@ https://gohugo.io/functions/css/sass/#options
 ```
 
 ## Installation
-Reccomendation: Fork this repository, as this is meant to be a start.
+As this is meant as a foundation for create PicoCSS based Hugo-Themes I reccomend to make a copy of this repository.
+
+Alternatively it is also possible to use theme components: https://gohugo.io/hugo-modules/theme-components/#article
 
 ## Configuration
 Modify main.scss and all the layout files as you need. See PicoCSS and Hugo documentation.
