@@ -3,7 +3,7 @@ license: MIT
 licenselink: https://github.com/owner/repo/LICENSE
 description: Foundation to create Thems based on the PicoCSS Framework: picocss.org
 homepage: https://github.com/mnordhaus/pico-base
-demosite: Use the sample content within the theme
+demosite:
 tags:
   - blog
   - PicoCSS
